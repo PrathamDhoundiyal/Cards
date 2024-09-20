@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.container{
+    width: 100vw;
+    height:100vh;
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+}
+.imageBox{
+    background-color: red;
+    height: 30%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.imageBox img{
+    height:100%;
+    width: 100%;
+    /* object-fit: contain; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.downBox{
+    height: 70%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   /* gap:12px; */
+}
+.orderBox{
+    height:35px;
+    width: 290px;
+    /* background-color: royalblue; */
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.orderBox p{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.cancelorderBox{
+    height:48px;
+    width: 290px;
+    /* background-color: royalblue; */
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.cancelorderBox p{
+    font-size: .9rem;
+    font-weight: bold;
+}
+.contentBox{
+    height:70px;
+    width: 290px;
+    /* background-color: royalblue; */
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.contentBox p{
+ font-size: .9rem;
+ font-weight:600px;
+}
+.paymentBox{
+    height:45px;
+    width: 290px;
+    background-color: #051C3A;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   border-radius:8px;
+   box-shadow: 0px 6px  20px black;
+}
+.paymentBox p{
+    color: azure;
+    font-size: .9rem;
+    font-weight: bold;
+}
+.anualPlan{
+    height:48px;
+    width: 290px;
+    background-color: #B7C9CF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+}
+.yellowBox{
+height:33px;
+width: 33px;
+border-radius: 8px;
+background-color:beige;
+display: flex;
+align-content: center;
+}
+
+.yellowBox img{
+    /* object-fit: cover; */
+}
+.hStack{
+    display: flex;
+    flex-direction: column;
+    margin-right:70px;
+}
+.hStack p{
+    font-size:.9rem;
+}
